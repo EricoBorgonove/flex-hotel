@@ -28,5 +28,9 @@
     "jsonwebtoken": "^9.0.3",
     "pg": "^8.19.0",
     "zod": "^4.3.6"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14",
+    "prisma": "^7.4.2"
   }
 }

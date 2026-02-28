@@ -7,5 +7,10 @@ code .
 // inicializa um projeto nodeJs
 npm init -y
 // instalação das dependencias do projeto
-npm install express cors dotenv jsonwebtoken 
-bcryptjs zod pg @prisma/client @prisma/adapter-pg
+npm install express cors dotenv jsonwebtoken bcryptjs zod pg @prisma/client @prisma/adapter-pg
+
+// instalação das dependencias de desenvolvimento
+npm install -D prisma nodemon
+// remover o arquivo prisma.config e renomear a pasta prisma
+// Inicialização do prisma
+npx prisma init
