@@ -14,3 +14,8 @@ npm install -D prisma nodemon
 // remover o arquivo prisma.config e renomear a pasta prisma
 // Inicialização do prisma
 npx prisma init
+
+//criar o banco de dados dentro do postgres
+
+create database flexhotel
+
