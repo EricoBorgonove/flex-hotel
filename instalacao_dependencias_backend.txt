@@ -1,1 +1,11 @@
-// file: instalacao_dependencias_backend.txt
+
+//criem uma pasta nova 
+git init 
+git pull https://github.com/EricoBorgonove/flex-hotel
+rm -rf .git
+code .
+// inicializa um projeto nodeJs
+npm init -y
+// instalação das dependencias do projeto
+npm install express cors dotenv jsonwebtoken 
+bcryptjs zod pg @prisma/client @prisma/adapter-pg
