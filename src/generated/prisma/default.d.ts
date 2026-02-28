@@ -1,1 +1,1 @@
-// file: src/generated/prisma/default.d.ts
+export * from "./index"

@@ -1,1 +1,1 @@
-// file: src/generated/prisma/edge.d.ts
+export * from "./default"

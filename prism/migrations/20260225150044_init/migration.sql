@@ -1,1 +1,0 @@
--- file: prisma/migrations/20260225150044_init/migration.sql
